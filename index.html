@@ -6,15 +6,20 @@
   <script src="main.js" defer></script>
   <script src="moment.min.js"></script>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+  <link rel="shortcut icon" href="#">
+
   <title>Music Search</title>
 </head>
 <body>
+  <div>
   <h1>Nu-winamp(The Search for music that doesn't suck)</h1>
-  <div class="music-container">
-    <div class="song-info"></div>
-    <div class="progress-container">
-      <div class="song-progress"></div>
-    </div>
+    <input id="search" placeholder="Enter Artist"/>
+    <button id="submit">Search</button>
+    <div class= "row" id ="output"></div>
   </div>
+  
+  </div>
+
 </body>
 </html>
